@@ -140,3 +140,15 @@ Las historias siguen el formato: _Como [rol], quiero [acción], para [beneficio]
 - **HU-16 — Gestión de sedes.** Como organizador, quiero asociar una sede a la actividad, para definir el lugar.
 
 > El backlog completo contempla 23 historias de usuario (HU-01 a HU-23) y 4 tareas técnicas (T-01 a T-04). Las anteriores son representativas de cada épica.
+
+---
+
+## 5. Tablero de seguimiento
+
+- **Herramienta:** GitHub Projects.
+- **Enlace público:** https://github.com/users/ignacio-heim/projects/2
+- **Miembros incluidos:** Ignacio Heim.
+- **Docente invitado:** sergiod.medina@davinci.edu.ar (con acceso al tablero).
+- **Estado:** tablero configurado como público.
+
+Columnas del tablero: **Backlog · To Do · In Progress · Code Review · Done**, con límite WIP en "In Progress".
