@@ -1,0 +1,14 @@
+// codigo-fuente/src/models/actividad.prisma
+// HU-01 Crear actividad - modelo de datos (ilustrativo)
+
+model Actividad {
+  id            String   @id @default(uuid())
+  titulo        String
+  juego         String
+  fecha         DateTime
+  lugar         String
+  cupo          Int
+  inscriptos    Int      @default(0)
+  creadorId     String   // el creador queda como administrador de la actividad
+  creadaEn      DateTime @default(now())
+}

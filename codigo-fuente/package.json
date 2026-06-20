@@ -1,0 +1,14 @@
+{
+  "name": "milonga",
+  "version": "0.4.0",
+  "description": "Milonga - capa de coordinacion de actividades recreativas",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "@prisma/client": "^5.0.0"
+  }
+}
