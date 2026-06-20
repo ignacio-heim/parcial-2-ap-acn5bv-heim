@@ -152,3 +152,26 @@ Las historias siguen el formato: _Como [rol], quiero [acción], para [beneficio]
 - **Estado:** tablero configurado como público.
 
 Columnas del tablero: **Backlog · To Do · In Progress · Code Review · Done**, con límite WIP en "In Progress".
+
+---
+
+## 7. Estimaciones
+
+Estimación por **story points** con escala de Fibonacci (1, 2, 3, 5, 8, 13), asignados por planning poker.
+
+| HU | Descripción | Puntos | Prioridad |
+|---|---|---|---|
+| HU-01 | Crear actividad | 8 | Alta |
+| HU-02 | Explorar actividades | 5 | Alta |
+| HU-03 | Login / registro | 3 | Alta |
+| HU-04 | Ver detalle de actividad | 3 | Alta |
+| HU-05 | Unirse a una actividad | 5 | Alta |
+| HU-06 | Confirmar asistencia | 3 | Media |
+| HU-07 | Lista de espera | 5 | Media |
+| HU-08 | Avisos / notificaciones | 8 | Media |
+| HU-09 | Perfil de usuario | 3 | Media |
+| HU-10 | Reputación | 5 | Baja |
+| HU-12 | Mapa / geolocalización | 8 | Media |
+| HU-13 | División de costos | 5 | Baja |
+
+**Total estimado del set:** 61 puntos. Con una velocidad estimada de ~20 puntos por sprint, se planifican 3 sprints para cubrir los tres milestones.
