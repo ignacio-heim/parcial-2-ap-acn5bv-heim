@@ -175,3 +175,18 @@ Estimación por **story points** con escala de Fibonacci (1, 2, 3, 5, 8, 13), as
 | HU-13 | División de costos | 5 | Baja |
 
 **Total estimado del set:** 61 puntos. Con una velocidad estimada de ~20 puntos por sprint, se planifican 3 sprints para cubrir los tres milestones.
+
+---
+
+## 8. Asignación de responsables
+
+| Ítem | Responsable | Milestone |
+|---|---|---|
+| HU-01 Crear actividad | Heim | M1 |
+| HU-02 Explorar actividades | Heim | M1 |
+| HU-03 Login / registro | Heim | M1 |
+| HU-04 Ver detalle | Heim | M1 |
+| HU-05 Unirse | Heim | M2 |
+| HU-06 Confirmar asistencia | Heim | M2 |
+| HU-07 Lista de espera | Heim | M2 |
+| HU-08 Avisos | Heim | M2 |
