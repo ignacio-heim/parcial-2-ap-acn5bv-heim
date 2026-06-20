@@ -205,3 +205,21 @@ Se simula el avance del desarrollo mediante incrementos de versión del código 
 | 0.4.0 | Validación de cupo y asociación del creador como administrador. |
 
 Cada incremento queda reflejado en el campo `version` de `codigo-fuente/package.json` y en los mensajes de commit.
+
+---
+
+## 10. Situación de ajuste de la metodología
+
+**Contexto.** Durante el Sprint 2, dos hechos pusieron en riesgo el objetivo del sprint:
+1. La ampliación de alcance de "partida" a "actividad" (Opción B) cambió la entidad central del modelo y obligó a reescribir terminología y flujos.
+2. El conector MCP del plan Starter alcanzó su rate limit, bloqueando la finalización de 4 pantallas de Figma.
+
+**Problema.** La velocidad del equipo cayó y varias tarjetas quedaron bloqueadas en "In Progress", saturando el flujo.
+
+**Ajuste aplicado.**
+- Se convocó un Refinement extraordinario para reincorporar el cambio de alcance al backlog.
+- Se reordenó el backlog por valor: "Crear actividad" pasó a liderar, en lugar de seguir el orden de dependencia técnica.
+- Se introdujeron **límites WIP** explícitos en el tablero (transición de Scrum puro a Scrumban) para no acumular trabajo bloqueado.
+- Las pantallas bloqueadas por el rate limit se movieron al sprint siguiente en lugar de forzar su cierre.
+
+**Resultado.** El equipo recuperó previsibilidad sin abandonar la cadencia de sprints, y el tablero reflejó el estado real del trabajo.
