@@ -1,7 +1,7 @@
 # Milonga — Documento de Proyecto (Parcial 2)
 
 **Materia:** Administración de Proyectos — Prof. Sergio Medina
-**Equipo:** [Apellido Integrante 1], [Apellido Integrante 2] _(completar; mínimo 2, máximo 4)_
+**Equipo:** Ignacio Heim
 **Sistema de versionado:** GitHub (cada incremento de versión = un commit etiquetado)
 
 ---
@@ -88,7 +88,7 @@ Se utiliza la matriz **poder / interés** para clasificar a los interesados y de
 - **Poder / interés:** poder medio (son clave para la masa crítica), interés alto.
 - **Gestión:** priorizar las funcionalidades que les resuelven la logística; programa de early adopters en el piloto.
 
-- ---
+---
 
 ## 3. Metodología ágil elegida
 
@@ -110,7 +110,7 @@ Se utiliza la matriz **poder / interés** para clasificar a los interesados y de
 - **Límites WIP:** máximo de ítems simultáneos en "In Progress" para evitar dispersión.
 - **Backlog ordenado por valor**, no por dependencia técnica (por eso "Crear actividad" lidera).
 
-- ---
+---
 
 ## 4. Análisis de requerimientos (historias de usuario)
 
@@ -152,6 +152,33 @@ Las historias siguen el formato: _Como [rol], quiero [acción], para [beneficio]
 - **Estado:** tablero configurado como público.
 
 Columnas del tablero: **Backlog · To Do · In Progress · Code Review · Done**, con límite WIP en "In Progress".
+
+---
+
+## 6. Milestones
+
+Se definen tres milestones, cada uno con al menos cuatro historias de usuario.
+
+### Milestone 1 — MVP Core
+Objetivo: que un usuario pueda registrarse, explorar, crear una actividad y verla en detalle.
+- HU-01 Crear actividad
+- HU-02 Explorar actividades
+- HU-03 Login / registro
+- HU-04 Ver detalle de actividad
+
+### Milestone 2 — Coordinación y compromiso
+Objetivo: incorporar las mecánicas que diferencian a Milonga de Meetup.
+- HU-05 Unirse a una actividad
+- HU-06 Confirmar asistencia
+- HU-07 Lista de espera
+- HU-08 Avisos / notificaciones
+
+### Milestone 3 — Social y presencial
+Objetivo: construir confianza y resolver la logística presencial.
+- HU-09 Perfil de usuario
+- HU-10 Reputación
+- HU-12 Mapa / geolocalización
+- HU-13 División de costos
 
 ---
 
