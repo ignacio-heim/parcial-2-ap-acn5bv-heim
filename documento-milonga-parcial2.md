@@ -53,3 +53,37 @@ Desarrollar y validar el MVP de Milonga (web + mobile) que permita a jóvenes de
 | KR2 | Lograr que el 100% de las características del benchmark queden cubiertas (multijuego, geolocalización, crear/unirse, online, juegos de mesa, descubrir jugadores, reputación). |
 | KR3 | En el piloto, alcanzar una tasa de actividades con cupo completo ≥ 60%. |
 | KR4 | Reducir el tiempo percibido de coordinación de una actividad por debajo de los 5 minutos (medido por encuesta a usuarios del piloto). |
+
+---
+
+## 2. Análisis de interesados (stakeholders)
+
+Se utiliza la matriz **poder / interés** para clasificar a los interesados y definir la estrategia de gestión de cada uno.
+
+| Stakeholder | Tipo | Poder | Interés | Estrategia |
+|---|---|---|---|---|
+| Usuarios finales (jóvenes 18–35) | Externo | Medio (colectivo alto) | Alto | Mantener satisfechos / co-creación |
+| Equipo fundador y de desarrollo | Interno | Alto | Alto | Gestionar de cerca |
+| Organizadores recurrentes ("power users") | Externo | Medio | Alto | Mantener satisfechos |
+| Dueños de sedes y complejos (canal presencial / B2B) | Externo | Medio | Medio | Mantener informados |
+| Proveedor de geolocalización (Google Maps Platform) | Externo | Medio | Bajo | Monitorear |
+
+### Perfiles detallados (al menos 3)
+
+**1. Usuarios finales (jóvenes de 18 a 35 años)**
+- **Rol:** organizan o se suman a actividades recreativas.
+- **Expectativas:** armar actividades rápido, jugar más seguido, no perder tiempo coordinando, conocer gente nueva.
+- **Poder / interés:** individualmente su poder es bajo, pero como colectivo determinan el éxito del producto; el interés es alto.
+- **Gestión:** validación constante (entrevistas, mapa de empatía), iteración sobre la experiencia de "crear" y "unirse", canales de feedback dentro de la app.
+
+**2. Equipo fundador y de desarrollo**
+- **Rol:** definen producto, priorizan backlog y construyen el MVP. Incluye al Project Manager / Scrum Master y al equipo técnico.
+- **Expectativas:** entregar un MVP viable dentro del plazo, mantener el alcance bajo control tras la ampliación de "partida" a "actividad".
+- **Poder / interés:** ambos altos.
+- **Gestión:** ceremonias de Scrum, tablero compartido, definición clara del alcance del MVP.
+
+**3. Organizadores recurrentes / power users**
+- **Rol:** capitanes de grupo y organizadores frecuentes que traen a otros usuarios a la plataforma.
+- **Expectativas:** herramientas de gestión de cupos, lista de espera, división de costos y balanceo de equipos que les ahorren trabajo.
+- **Poder / interés:** poder medio (son clave para la masa crítica), interés alto.
+- **Gestión:** priorizar las funcionalidades que les resuelven la logística; programa de early adopters en el piloto.
