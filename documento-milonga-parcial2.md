@@ -223,3 +223,18 @@ Cada incremento queda reflejado en el campo `version` de `codigo-fuente/package.
 - Las pantallas bloqueadas por el rate limit se movieron al sprint siguiente en lugar de forzar su cierre.
 
 **Resultado.** El equipo recuperó previsibilidad sin abandonar la cadencia de sprints, y el tablero reflejó el estado real del trabajo.
+
+---
+
+## 11. Actualización de documentos y versiones de configuración
+
+- Este documento se mantiene versionado en el repositorio; cada sección agregada corresponde a un commit (ver changelog inicial).
+- El código fuente versiona su avance en `codigo-fuente/package.json`.
+- La configuración del repositorio (tablero, milestones, miembros) se actualiza junto con cada incremento del documento.
+- Versión consolidada del documento: **v1.0**.
+
+---
+
+## Anexo — Pull Request (extra)
+
+Se simula el desarrollo de la **HU-01 (Crear actividad)** mediante una rama y un Pull Request. El código se encuentra en `codigo-fuente/`. Tras el merge, la tarjeta HU-01 se marca como **Done** en el tablero. Detalle del flujo en `GUIA-entrega.md`.
