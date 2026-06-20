@@ -87,3 +87,25 @@ Se utiliza la matriz **poder / interés** para clasificar a los interesados y de
 - **Expectativas:** herramientas de gestión de cupos, lista de espera, división de costos y balanceo de equipos que les ahorren trabajo.
 - **Poder / interés:** poder medio (son clave para la masa crítica), interés alto.
 - **Gestión:** priorizar las funcionalidades que les resuelven la logística; programa de early adopters en el piloto.
+
+- ---
+
+## 3. Metodología ágil elegida
+
+**Decisión:** Scrum como marco principal, complementado con un tablero Kanban con límites de trabajo en progreso (enfoque **Scrumban**).
+
+### Justificación
+- El alcance del proyecto evolucionó durante su desarrollo (la ampliación de "partida" a "actividad"). Un marco iterativo permite incorporar ese cambio sin rehacer todo el plan.
+- El equipo es chico y necesita ciclos cortos de entrega para validar pantallas con la devolución del docente y de usuarios.
+- Kanban aporta visibilidad del flujo y control de cuellos de botella (por ejemplo, las pantallas bloqueadas por el rate limit del conector), mientras Scrum aporta cadencia y compromisos por sprint.
+
+### Características de Scrum aplicadas
+- **Roles:** Product Owner (prioriza el backlog por valor), Scrum Master (facilita y remueve impedimentos), Equipo de desarrollo.
+- **Sprints:** iteraciones de 2 semanas con un objetivo de sprint definido.
+- **Ceremonias:** Sprint Planning, Daily, Sprint Review, Retrospectiva y Refinement de backlog.
+- **Artefactos:** Product Backlog (las 23 HU + tareas técnicas), Sprint Backlog e Incremento.
+
+### Características de Kanban aplicadas
+- **Tablero con columnas:** Backlog → To Do → In Progress → Code Review → Done.
+- **Límites WIP:** máximo de ítems simultáneos en "In Progress" para evitar dispersión.
+- **Backlog ordenado por valor**, no por dependencia técnica (por eso "Crear actividad" lidera).
