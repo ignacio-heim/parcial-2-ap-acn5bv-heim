@@ -109,3 +109,34 @@ Se utiliza la matriz **poder / interés** para clasificar a los interesados y de
 - **Tablero con columnas:** Backlog → To Do → In Progress → Code Review → Done.
 - **Límites WIP:** máximo de ítems simultáneos en "In Progress" para evitar dispersión.
 - **Backlog ordenado por valor**, no por dependencia técnica (por eso "Crear actividad" lidera).
+
+- ---
+
+## 4. Análisis de requerimientos (historias de usuario)
+
+Las historias siguen el formato: _Como [rol], quiero [acción], para [beneficio]._
+
+### Épica A — Acceso y descubrimiento
+- **HU-01 — Crear actividad.** Como organizador, quiero crear una actividad indicando juego, fecha, lugar y cupo, para convocar gente.
+  - *Criterios:* la actividad queda visible en Explorar; se valida cupo > 0; el creador queda como administrador de la actividad.
+- **HU-02 — Explorar actividades.** Como usuario, quiero ver y filtrar actividades cercanas, para encontrar a qué sumarme.
+- **HU-03 — Login / registro.** Como usuario, quiero autenticarme, para acceder a mis actividades.
+- **HU-04 — Ver detalle de actividad.** Como usuario, quiero ver los detalles y participantes, para decidir si me uno.
+
+### Épica B — Coordinación y compromiso
+- **HU-05 — Unirse a una actividad.** Como usuario, quiero unirme y ocupar un cupo, para confirmar mi participación.
+- **HU-06 — Confirmar asistencia.** Como organizador, quiero que los inscriptos confirmen, para reducir cancelaciones.
+- **HU-07 — Lista de espera.** Como usuario, quiero anotarme en lista de espera si no hay cupo, para entrar si alguien se baja.
+- **HU-08 — Avisos / notificaciones.** Como usuario, quiero recibir avisos de cambios, para no perderme actualizaciones.
+
+### Épica C — Social y presencial
+- **HU-09 — Perfil de usuario.** Como usuario, quiero un perfil con mi historial, para mostrar mi actividad.
+- **HU-10 — Reputación.** Como usuario, quiero calificar y ser calificado, para generar confianza.
+- **HU-11 — Chat de actividad.** Como participante, quiero un chat, para coordinar detalles.
+- **HU-12 — Mapa / geolocalización.** Como usuario, quiero ver actividades en un mapa, para elegir por cercanía.
+- **HU-13 — División de costos.** Como organizador, quiero dividir el costo entre participantes, para simplificar el pago.
+- **HU-14 — Balanceo de equipos.** Como organizador, quiero armar equipos equilibrados, para que el juego sea parejo.
+- **HU-15 — Aporte de equipamiento.** Como participante, quiero indicar qué equipamiento llevo, para coordinar lo que falta.
+- **HU-16 — Gestión de sedes.** Como organizador, quiero asociar una sede a la actividad, para definir el lugar.
+
+> El backlog completo contempla 23 historias de usuario (HU-01 a HU-23) y 4 tareas técnicas (T-01 a T-04). Las anteriores son representativas de cada épica.
