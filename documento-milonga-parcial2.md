@@ -190,3 +190,18 @@ Estimación por **story points** con escala de Fibonacci (1, 2, 3, 5, 8, 13), as
 | HU-06 Confirmar asistencia | Heim | M2 |
 | HU-07 Lista de espera | Heim | M2 |
 | HU-08 Avisos | Heim | M2 |
+
+---
+
+## 9. Simulación de desarrollo (cambios de versión de código)
+
+Se simula el avance del desarrollo mediante incrementos de versión del código fuente. La carpeta `codigo-fuente/` contiene una implementación ilustrativa de la HU-01 (Crear actividad).
+
+| Versión de código | Cambio |
+|---|---|
+| 0.1.0 | Estructura inicial del proyecto y modelo `Actividad`. |
+| 0.2.0 | Endpoint `POST /actividades` (controlador de creación). |
+| 0.3.0 | Componente de frontend `CrearActividad`. |
+| 0.4.0 | Validación de cupo y asociación del creador como administrador. |
+
+Cada incremento queda reflejado en el campo `version` de `codigo-fuente/package.json` y en los mensajes de commit.
